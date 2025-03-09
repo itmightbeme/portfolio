@@ -9,16 +9,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Molle&family=Pacifico&display=swap"
         rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+
 
 </head>
 
-<nav class="topnav">
-    <a href="index.html">Index</a>
-    <a href="experience.html">Experience</a>
-    <a href="portfolio.html">Portfolio</a>
-</nav>
+
 
 <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("portfolio/navigation.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
 
     <header>
         <img class="head_shot" src="scuba.jpeg" alt="headshot of Rebecca" width="30%">

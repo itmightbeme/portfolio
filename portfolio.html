@@ -10,12 +10,20 @@
         rel="stylesheet">
 
     <title>BLT Portfolio</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 </head>
-<nav class="topnav">
-    <a href="index.html">Index</a>
-    <a href="experience.html">Experience</a>
-    <a href="portfolio.html">Portfolio</a>
-</nav>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("portfolio/navigation.html");
+    });
+</script>
+<!--end of Navigation bar-->
 <header>
     <h1>Portfolio</h1>
 </header>
