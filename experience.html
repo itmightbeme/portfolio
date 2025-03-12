@@ -10,72 +10,65 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <title>BLT Resume</title>
-
 </head>
 
 <body>
+    <nav><!--Navigation bar-->
+        <div id="nav-placeholder"></div>
 
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
-
-    </div>
-
-    <script>
-        $(function () {
-            $("#nav-placeholder").load("portfolio/navigation.html");
-        });
-    </script>
-    <!--end of Navigation bar-->
-
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("portfolio/navigation.html");
+            });
+        </script>
+    </nav><!--end of Navigation bar-->
 
     <header>
         <h1>Experience</h1>
-
-
     </header>
+
     <main>
-        <section>
-            <nav class="nav">
-                <a href="#objective"><button>Objective</button></a>
-                <a href="#skills"><button>Skills</button></a>
-                <a href="#experience"><button>Experience</button></a>
-                <a href="#education"><button>Education</button></a>
-                <a href="#certs"><button>Certifications</button></a>
+        <nav class="nav">
+            <a href="#objective"><button>Objective</button></a>
+            <a href="#skills"><button>Skills</button></a>
+            <a href="#experience"><button>Experience</button></a>
+            <a href="#education"><button>Education</button></a>
+            <a href="#certs"><button>Certifications</button></a>
+        </nav>
 
-            </nav>
+        <section id="objective">
             <h2>Objective</h2>
-
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis optio dolorem mollitia blanditiis
-                expedita iure et quibusdam facere consequatur provident veniam beatae odit possimus iste delectus
-                debitis quia, consequuntur magni.
+                Eager to apply my newly acquired full-stack development skills, creativity, and experience as
+                an educator in a role where I can contribute to building innovative, educational, user-centric web
+                applicaitons.
             </p>
         </section>
 
-        <section>
-            <h2 id="skills">Skills</h2>
-            <ul>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul id="hardskills">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>Figma</li>
                 <li>Java</li>
-                <li>Spring</li>
+                <li>Spring Boot</li>
                 <li>Python</li>
+            </ul>
+            <ul id="softskills">
+                <li>Communicaion</li>
+                <li>Creativity</li>
+                <li>Empathy</li>
             </ul>
 
         </section>
 
-        <section>
-            <h2 id="experience">Experience</h2>
-            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis omnis nam esse voluptatum reiciendis
-                iure inventore facere officia quisquam. Quam consectetur quis reprehenderit doloremque officiis delectus
-                et debitis dolores nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe a perspiciatis voluptas
-                recusandae debitis. Quas quaerat veritatis consequatur suscipit, eius aliquam laboriosam, delectus sit
-                nostrum, aperiam perspiciatis ipsum error.</p> -->
+        <section id="experience">
+            <h2>Experience</h2>
+
             <dl>
-                <dt>Computer Specialty Teacher, Sharon Elementary 2018-2021 </dt>
+                <dt><b>Computer Specialty Teacher, Sharon Elementary 2018-2021</b></dt>
                 <dd>Maintain Computer lab including cleaning, decorating, and troubleshooting 40 MacMini computers.
                 </dd>
                 <dd>Teach groups of 18-30 students computer skills including Google Suite, Coding with Scratch and
@@ -84,45 +77,50 @@
                 <dd>Collaborate with Classroom teachers to re-inforce subect matter through games and online
                     activities.
                 </dd>
-
-                <dt>Owner/Operator, HobbleCreek Wireless</dt>
+                <br>
+                <br>
+                <dt><b>Owner/Operator, HobbleCreek Wireless</b></dt>
                 <dd>Establish and Manage operations for small internet provider.</dd>
                 <dd>Marketing, Customer Service, Billing</dd>
 
                 <dt></dt>
                 <dd></dd>
             </dl>
-
         </section>
 
-        <section>
-            <h2 id="education">Education</h2>
+        <section id="education">
+            <h2>Education</h2>
+
+            <p><b>Bachelor of Science, Software Engineering</b>, Western Governors University, Salt Lake City, UT, May
+                2025</p>
+            <p><b>Bachelor of Science, Elementary Education</b>, Utah Valley University, Orem, UT, December 2009</p>
+            <p><b>Associate of Science, General Education</b>, Salt Lake Community College, Salt Lake City, UT</p>
+        </section>
+
+        <section id="certs">
+            <h2>Licenses and Certifications</h2>
 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis optio dolorem mollitia blanditiis
-                expedita iure et quibusdam facere consequatur provident veniam beatae odit possimus iste delectus
-                debitis quia, consequuntur magni.
+                <b>Cert Name</b> Issuing organization(ABR), February 2021(date), location
             </p>
-        </section>
-
-        <section>
-            <h2 id="certs">Licenses and Certifications</h2>
-
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis optio dolorem mollitia blanditiis
-                expedita iure et quibusdam facere consequatur provident veniam beatae odit possimus iste delectus
-                debitis quia, consequuntur magni.
+                <b>Cert Name</b> Issuing organization(ABR), February 2021(date), location
+            </p>
+            <p>
+                <b>Cert Name</b> Issuing organization(ABR), February 2021(date), location
+            </p>
+            <p>
+                <b>Cert Name</b> Issuing organization(ABR), February 2021(date), location
+            </p>
+            <p>
+                <b>Cert Name</b> Issuing organization(ABR), February 2021(date), location
             </p>
         </section>
 
         <br>
-        <a href="#"><button>Sample Work</button></a>
+        <a href="portfolio.html">See examples of my work here.</a>
         <br>
-
-
     </main>
-
-
 </body>
 
 </html>
