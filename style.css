@@ -68,6 +68,7 @@ header{
 }
 
 .intro {
+    
     max-width: 500px;
     text-align: left;
     padding-left: 18px;
@@ -80,7 +81,8 @@ dd::before {
 .head_shot {
     border-color: white);
     border-width: 10px;
-    border-radius: 10px;
+    border-radius: 50%;
+    width: 20%;
 
 }
 .topnav {
@@ -107,4 +109,8 @@ dd::before {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.portfoliolink {
+    color: var(--main-color)
 }
