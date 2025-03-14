@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <a href="../../index.html"><button>return to main site</button></a>
+
+    <h2 id="title">A Story About You</h2>
+
+    <form id="myForm">
+
+        <!-- Question 1: name -->
+        <label for="name">
+            What is your name?</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Question 2: gender -->
+        <label for="gender">What is your gender? </label>
+        <select name="gender" id="gender">
+            <option for="boy">male</option>
+            <option for="girl">female</option>
+            <option for="neutral">neither</option>
+            <option for="neutral">both</option>
+        </select><br><br>
+
+        <!-- Question 3: dow -->
+        <p>What is your favorite day of the week?</p>
+        <input type="radio" id="mon" name="dow" value="Monday">
+        <label for="mon">Monday</label><br>
+
+        <input type="radio" id="tue" name="dow" value="Tuesday">
+        <label for="tue">Tuesday</label><br>
+
+        <input type="radio" id="wed" name="dow" value="Wednesday">
+        <label for="wed">Wednesday</label><br>
+
+        <input type="radio" id="thu" name="dow" value="Thursday">
+        <label for="thu">Thursday</label><br>
+
+        <input type="radio" id="fri" name="dow" value="Friday">
+        <label for="fri">Friday</label><br>
+
+        <input type="radio" id="sat" name="dow" value="Saturday">
+        <label for="sat">Saturday</label><br>
+
+        <input type="radio" id="sun" name="dow" value="Sunday">
+        <label for="sun">Sunday</label><br>
+        <br><br>
+
+        <!-- Question 4: place-->
+
+
+        <!-- Question 5: friend-->
+        <label for="friend">
+            Tell me the name of a friend?</label>
+        <input type="text" id="friend" name="friend"><br><br>
+
+        <!-- Question 4: walk/swim/fly-->
+        <p>If you could be one of these animals, which animal would you be?</p>
+        <input type="radio" id="bear" name="animal" value="bear">
+        <label for="bear">bear</label><br>
+
+        <input type="radio" id="dolphin" name="animal" value="dolphin">
+        <label for="dolphin">dolphin</label><br>
+
+        <input type="radio" id="eagle" name="animal" value="eagle">
+        <label for="eagle">eagle</label><br>
+
+        <input type="radio" id="eagle" name="animal" value="duck">
+        <label for="duck">duck</label><br>
+        <br><br>
+
+        <!-- Question 4: food-->
+        <label for="food">
+            What is your favorite food?</label>
+        <input type="text" id="food" name="food"><br><br>
+
+        <!-- Question 4: treat-->
+        <label for="treat">
+            What is your favorite treat?</label>
+        <input type="text" id="treat" name="treat"><br><br>
+
+        <!-- Question 4: drink-->
+        <label for="drink">
+            What is your favorite drink?</label>
+        <input type="text" id="drink" name="drink"><br><br>
+
+        <!-- Question 4: introvert / extrovert -->
+        <p>Are you an
+            <input type="radio" id="introvert" name="introextro" value="introvert">
+            <label for="introvert">introvert</label>
+            or an
+            <input type="radio" id="extrovert" name="introextro" value="extrovert">
+            <label for="extrovert">extrovert</label>
+            ?
+        </p>
+
+
+
+
+
+
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
+    <p id="paragraph3"></p>
+    <p id="paragraph4"></p>
+    <p id="paragraph5"></p>
+
+    <script src="story.js"></script>
+
+
+</body>
+
+</html>
